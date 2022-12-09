@@ -3,7 +3,7 @@
  * main - Entry
  * Return - Always 0
  */
-int main(void)
+intmain(void)
 {
 	printf("Size of a float: %ld bytes(s)\n",sizeof(float));
 	printf("Size of a long long int: %ld bytes(s)\n",sizeof(long long int));

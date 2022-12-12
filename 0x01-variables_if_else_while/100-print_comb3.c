@@ -12,9 +12,9 @@ int main(void)
 	{
 	for (y = 48 ; y < 58 ; y++)
 	{
-	if (x == y || y<= x)
+	if (x == y || y <= x)
 	{}
-	else 
+	else
 	{
 		putchar(x);
 		putchar(y);

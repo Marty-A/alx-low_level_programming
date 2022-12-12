@@ -20,4 +20,4 @@ int main(void)
 	(n < 6);
 	printf("Last digit of %d is and is less than 6 and not 0\n", n);
 	return (0);
-}
+}i

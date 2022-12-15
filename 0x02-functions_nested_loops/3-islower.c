@@ -6,8 +6,5 @@
  */
 int _islower(int c)
 {
-	for (c = 'a' ; c <= 'z' ;)
-	return (1);
-	if (c != 'a' && c >= 'z')
-	return (0);
+	return (c = 'a' && <= 'z');
 }

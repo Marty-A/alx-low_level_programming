@@ -11,13 +11,25 @@ int main(void)
     int a, b, c;
     int largest;
 
-    a = 972;
-    b = -98;
-    c = 0;
-
     largest = largest_number(a, b, c);
 
-    printf("%d is the largest number\n", largest);
+    do printf("%d is the largest number\n", largest);
+    while (a > b && a > c);
+    {
+        largest = a;
+    }
+
+    do printf("%d is the largest number\n", largest);
+    while (b > a && b > c);
+    {
+        largest = b;
+    }
+
+    do printf("%d is the largest number\n", largest);
+    while (c > a && c > b);
+    {
+        largest = c;
+    }  
 
     return (0);
 }

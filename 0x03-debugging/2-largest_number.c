@@ -15,21 +15,12 @@ int main(void)
 
 	do printf("%d is the largest number\n", largest);
 	while (a > b && a > c);
-	{
-		largest = a;
-	}
 
 	do printf("%d is the largest number\n", largest);
 	while (b > a && b > c);
-	{
-		largest = b;
-	}
 
 	do printf("%d is the largest number\n", largest);
 	while (c > a && c > b);
-	{
-		largest = c;
-	}
 
 	return (0);
 }

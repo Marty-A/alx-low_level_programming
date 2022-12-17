@@ -2,16 +2,18 @@
 #include "main.h"
 
 /**
- * main - Prints the largest of 3 integers
+ * largest_number - Prints the largest integer
+ * @a: First integer
+ * @b: Second integer
+ * @c: Third integer
  * Return: 0
 */
 
-int main(void)
+int largest_number(int a, int b, int c)
 {
 	int a, b, c;
 	int largest;
 
-	largest = largest_number(a, b, c);
 
 	do printf("%d is the largest number\n", largest);
 	while (a > b && a > c);

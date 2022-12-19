@@ -6,7 +6,7 @@
  * @str: string
  * Return: 0
  */
-int _puts(char *str);
+int _puts(char *str)
 {
 	if (*str != '\0' && str++)
 	{

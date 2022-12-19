@@ -6,7 +6,7 @@
  * @s: string
  */
 
-void print_rev(har *s)
+void print_rev(char *s)
 {
 	int x = 0;
 

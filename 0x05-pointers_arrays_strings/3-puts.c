@@ -4,7 +4,7 @@
 /**
  * _puts - prints a string ff by a new line
  * @str: string
- * Return: 0
+ * Return: void
  */
 void _puts(char *str)
 {
@@ -13,5 +13,5 @@ void _puts(char *str)
 		_putchar(*str);
 	}
 	_putchar('\n');
-	return (0);
+	return (void);
 }

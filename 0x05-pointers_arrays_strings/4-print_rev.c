@@ -10,10 +10,8 @@ void print_rev(char *s)
 {
 	int x = 0;
 
-	if (s[x] && x++)
-	{
-		x--;
-		_putchar(s[x]);
-	}
+	while (x--)
+	_putchar(s[x]);
+
 	_putchar('\n');
 }

@@ -19,6 +19,6 @@ int main(void)
 		else
 		i++;
 	}
-	printf("%lu\n", n);
+	printf("%lu\n", ln);
 	return (0);
 }

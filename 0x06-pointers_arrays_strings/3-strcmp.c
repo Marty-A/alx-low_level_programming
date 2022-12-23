@@ -14,7 +14,9 @@ int *_strcmp(char *s1, char *s2)
 	int counter = 0, comVal;
 
 	while (s1[counter] == s2[counter] && s1[counter] != '\0')
+	{
 		counter++;
+	}
 
 	comVal = s1[counter] - s2[counter];
 

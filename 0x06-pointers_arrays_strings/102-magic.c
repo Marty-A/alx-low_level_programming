@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - main code
+ * Return: 0
+ */
+
 int main(void)
 {
 	int n, a[5], *p;

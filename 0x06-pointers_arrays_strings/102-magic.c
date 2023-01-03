@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - main code
- * Return: 0
- */
 
 int main(void)
 {

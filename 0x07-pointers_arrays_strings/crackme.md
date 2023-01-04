@@ -1,3 +1,1 @@
-Step 1: vim > 101-crackme_password
-Step 2: abcde12345
-Step 3: Ctrl + D
+step 1: cat > 101-crackme_password step 2: abc123 step 3: ctrl + d
